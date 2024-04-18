@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link rel="stylesheet" href="bootstrap site.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <title>frontend boostrap</title>
+    <style>
+     .img1{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+#get{
+  
+            position: relative;
+            background-image: url(k3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+animation-delay: 2s;
+  animation-name: example;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+        }
+        
+@keyframes example {
+  0%   {background-image:url(k3.jpg);}
+  25%  {background-image:url(k2.jpg);}
+  50%  {background-image:url(bg3.jpg);}
+  75%  {background-image:url(k1.jpg);}
+  100%  {background-image:url(k1.jpg);} 
+}
+/* body */
+#start{
+  color: white; 
+  background-color: black;
+}
+/* about */
+.do{
+  border-radius: 20px !important;
+}
+
+.slider.round{
+border-radius: 34px;
+}
+.slider.round:before{
+  border-radius: 50px;
+}
+
+
+</style>
+</head>
+<body>
+
+  
+
+
+<!-- toggle switch -->
+<!-- <label class="switch">
+  <input type="checkbox" onclick-={opened()}>
+  <span class="slider round"></span>
+</label> -->
+
+  
+ <!-- navbar -->
+ <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)"><img class="img1" src="lion1.jpg" ></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        </form>
+      </div>
+    </div>
+
+
+      <!-- my modal -->
+        
+      <button  id="log" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        Log in
+      </button>
+    </div>
+    
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">     
+    
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form action="post">
+                <label for="Username">Username</label>
+                <input type="text">
+                <br>
+                <label for="password">Password</label>
+                <input type="text">
+                <button style="background-color: green;">Login</button>
+            </form>
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </nav>
+
+
+  <!-- body-->
+  <section   id="get" id="hero" class="min-vh-100 d-flex align-items-center text-center">
+  <div  id="home" class="container">
+<div   class="row">
+<div  class="col-12">
+<h1 class="text-uppercase text-white fw-semibold display-1"><cite>Welcome to Forex Tradeware</h1>
+<h5 class="text-white mt-3 mt-4">WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES</h5>
+<div>
+<a href="#" id="start"  class="btn btn-brand">GET STARTED</a>
+<a href="#"  id="start" class="btn btn-brand">OUR PORTFOLIO</a>
+</div>
+</div>
+
+</div>
+  </div>
+  </section>
+
+  <!-- about -->
+
+  <section id="learn" class="p-5">
+    <div id="about"  id="search" class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+        <img  src="henry1.jpg"  class="img-fluid do">
+        </div>
+        <div class="col-md p-5">
+            <h1 >About forexware</h1>
+            <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, quisquam.</p>
+             <div>
+            <div class="d-flex">
+                <div class="iconbox me-4">
+                <i   class="ri-mail-send-fill"></i>
+            </div>
+            <div>
+                <h5>We are Awesome</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quam.</p>
+            </div>
+            </div>
+            <div class="d-flex">
+                <div class="iconbox me-4">
+                <i   class="ri-user-5-fill"></i>
+            </div>
+            <div>
+                <h5>We are Special</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quam.</p>
+            </div>
+            </div>
+            <div class="d-flex">
+                <div class="iconbox me-4">
+                <i  class="ri-rocket-2-fill"></i>
+            </div>
+            <div>
+                <h5>We are Unique</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, quam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br>
+  
+  <!-- awesome service -->
+<section id="portfolio" class="section-padding border-top">
+<div class="container">
+<div class="row">
+<div class="col-12 text-center">
+<div class="section-title">
+<h1 class="display-4 fw-semibold"><cite>Awesome Service</h1><br>
+<div class="line">
+<p>We love to craft digital experiances for brands rather than crap and more</p>
+</div>
+</div>
+</div>
+<div class="row g-4 text-center">
+    <div class="col-lg-4 col-sm-6">
+        <div class="service theme-shadow p-lg-5 p-4">
+  <div class="iconbox">
+    <i id="icon" class="ri-stack-fill"></i>
+  </div>
+  <h5 class="mt-4 mb-3">UX Design</h5>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, repellendus.</p>
+ </div>
+</div>
+    <div class="col-lg-4 col-sm-6">
+        <div class="service theme-shadow p-lg-5 p-4">
+  <div class="iconbox">
+    <i id="icon"  class="ri-menu-line"></i>
+  </div>
+  <h5 class="mt-4 mb-3">UX Menu</h5>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, repellendus.</p>
+ </div>
+</div>
+    <div class="col-lg-4 col-sm-6">
+        <div class="service theme-shadow p-lg-5 p-4">
+  <div class="iconbox">
+    <i id="icon" class="ri-chat-1-fill"></i>
+  </div>
+  <h5 class="mt-4 mb-3">UX Message</h5>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, repellendus.</p>
+ </div>
+</div>
+ 
+</div>
+</div>
+</section>
+<br><br>
+
+<!-- counter -->
+<section id="counter" class="section-padding">
+<div id="colour" class="container text-center">
+<div class="row g-4">
+<div  class="col-lg-3 col-sm-6-">
+<h1  id="whitecolor">90,00+</h1>
+<h6 id="whitecolor" class=" text-uppercase mt-3">Total Downloads</h6>
+</div>
+<div class="col-lg-3 col-sm-6-">
+<h1  id="whitecolor">58k+</h1>
+<h6  id="whitecolor" class=" text-uppercase mt-3">Trusted Clients</h6>
+</div>
+<div class="col-lg-3 col-sm-6-">
+<h1  id="whitecolor">5M+</h1>
+<h6  id="whitecolor"  class=" text-uppercase mt-3">Themes Designed</h6>
+</div>
+<div class="col-lg-3 col-sm-6-">
+<h1  id="whitecolor">100+</h1>
+<h6  id="whitecolor" class=" text-uppercase mt-3">Team members</h6>
+</div>
+</div>
+</div>
+</section>
+<br><br>
+
+<!-- reviws -->
+<section id="rewives" class="section-padding bg-light"> 
+  <div class="container">
+    <div  id="service" class="row">
+    <div class="col-12 text-center">
+    <div class="section-title">
+    <h1 class="display-4 fw-semibold"><cite>Reviews</h1><br>
+    <div class="line"></div>
+    <p>We love to craft digital experiances for brands rather than crap and more, we love trading</p>
+    </div>
+    </div>
+    </div>
+    <div class="row gy-5 gx-4">
+    <div class="col-lg-4 col-sm-6">
+   <div class="review">
+    <div class="review-head p-4 bg-white theme-shadow">
+    <div class="text-warning">
+      <img src="5stars.png" width="80px" height="20px">
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, quo?</p>
+    </div>
+    <div class="review-person mt-4 d-flex align-items-center" >
+  <img class="rounded-circle" src="henry.jpg" width="70px" height="70px">
+  <div class="ms-3"> 
+    <h5>Dianna Russell</h5>
+    <small>UX Architect</small>
+  </div>
+    </div>
+   </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+   <div class="review">
+    <div class="review-head p-4 bg-white theme-shadow">
+    <div class="text-warning">
+      <img src="5stars.png" width="80px" height="20px">
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, quo?</p>
+    </div>
+    <div class="review-person mt-4 d-flex align-items-center" >
+  <img class="rounded-circle" src="f1.webp" width="70px" height="70px">
+  <div class="ms-3"> 
+    <h5>Florence</h5>
+    <small>Php Developer</small>
+  </div>
+    </div>
+   </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+   <div class="review">
+    <div class="review-head p-4 bg-white theme-shadow">
+    <div class="text-warning">
+      <img src="5stars.png" width="80px" height="20px">
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, quo?</p>
+    </div>
+    <div class="review-person mt-4 d-flex align-items-center" >
+  <img class="rounded-circle" src="man1.jpeg" width="70px" height="70px">
+  <div class="ms-3"> 
+    <h5>Paul jack</h5>
+    <small>Python Developer</small>
+  </div>
+    </div>
+   </div>
+    </div>
+    
+</section>
+<br><br><br>
+<!-- teams -->
+
+<section id="team" class="section-padding" >
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+      <div class="section-title">
+      <h1 class="display-4 fw-semibold"><cite>Team Members</h1><br>
+      <div class="line"></div>
+      <p>We love to craft digital experiances for brands rather than crap and more, we love trading</p>
+      </div>
+      </div>
+      <div class="row g-4 text-center"></div>
+      <div class="col-md-4">
+      <div class="team-members image-zoom">
+        <div class="image-zoom-warpper">
+        <img  id="pix" src="s4.webp" width="300px" height="300px"></a>
+        <h4 >Lisa Morgan</h4>
+        <h6 class="pp">Webflow Expert</p>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+      <div class="team-members image-zoom">
+        <div class="image-zoom-warpper">
+        <img  id="pix" src="f1.jpg" width="300px" height="300px"></a>
+        <h4 >Sash Gwen</h4>
+        <h6 class="pp">Full-stack Developer</p>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+      <div class="team-members image-zoom">
+        <div class="image-zoom-warpper">
+        <img id="pix" src="s3.webp" width="300px" height="300px"></a>
+        <h4 >Mattew Joe</h4>
+        <h6 class="pp">Webflow Artist</p>
+      </div>
+      </div>
+      </div>
+  </div>
+
+</section><br><br>
+ 
+<!-- Carousel -->
+<sectipn>
+  <div class="container">
+    <div class="row">
+    <div class="col-12 text-center">
+    <div class="section-title">
+    <h1 class="display-4 fw-semibold"><cite>BLOGS</h1><br>
+
+      <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h6>WEB DESIGNER</h6>
+      <img src="group pix.webp"width="50%" height="400px">
+    </div>
+    <div class="carousel-item">
+      <h6>STRATEGIZE</h6>
+      <img src="two people.jpg"width="50%" height="400px">
+    </div>
+    <div class="carousel-item">
+      <h6>TOGETHER WE CAN DO THIS</h6>
+      <img src="group1.webp" width="50%" height="400px">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</section><br><br>
+
+<!-- footer -->
+<footer class="p-5 bg-dark text-white text-center
+position-relative">
+<div class="cointainer">
+  <p class="lead"> <cite>Copyright &copy; 2024 ~ 2025</p>
+  <a href="#"  class="position-absolute bottom-0 end-0 p-5"> 
+   
+    <i class="ri-arrow-up-circle-line"></i>
+  </div>
+  <a href="#" class="spen">Developed by~<cite>SpencerWebTech<span style="color: sandybrown;">™</a>
+</footer>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="new.js"></script>
+   
+
+    </script>
+</body>
+</html>
